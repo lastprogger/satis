@@ -1,0 +1,17 @@
+{
+  "name": "Satis",
+  "homepage": "http://satis.telephony.local",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:lastprogger/ApiClientsLibrary.git"
+    }
+  ],
+  "require-all": true,
+  "require-dependencies": false,
+  "archive": {
+    "directory": "dist",
+    "format": "tar",
+    "skip-dev": true
+  }
+}
