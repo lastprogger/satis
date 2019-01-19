@@ -378,7 +378,6 @@
                         ]
                     }
                 },
-                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "InternalApi\\": "src/"
@@ -401,20 +400,20 @@
                     "issues": "https://github.com/lastprogger/ApiClientsLibrary/issues"
                 }
             },
-            "dev-master": {
+            "v1.2.2": {
                 "name": "ApiClientsLibrary",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "v1.2.2",
+                "version_normalized": "1.2.2.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lastprogger/ApiClientsLibrary.git",
-                    "reference": "1c327be6e1b50896f5f77a9d67cfc285751e05fb"
+                    "reference": "3777c5f7eed5c8f0f6a19973290abf3d917c49cc"
                 },
                 "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/lastprogger/ApiClientsLibrary/zipball/1c327be6e1b50896f5f77a9d67cfc285751e05fb",
-                    "reference": "1c327be6e1b50896f5f77a9d67cfc285751e05fb",
-                    "shasum": ""
+                    "type": "tar",
+                    "url": "http://satis.telephony.local/dist/apiclientslibrary/apiclientslibrary-3777c5f7eed5c8f0f6a19973290abf3d917c49cc-zip-6dd30b.tar",
+                    "reference": "3777c5f7eed5c8f0f6a19973290abf3d917c49cc",
+                    "shasum": "04fbc3664f581178e92212e80c13cec2016e0067"
                 },
                 "require": {
                     "guzzlehttp/guzzle": "~6.3",
@@ -427,7 +426,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "~4.0"
                 },
-                "time": "2018-11-06T19:22:07+00:00",
+                "time": "2019-01-17T15:23:03+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -454,7 +453,122 @@
                     "library"
                 ],
                 "support": {
-                    "source": "https://github.com/lastprogger/ApiClientsLibrary/tree/v1.2.1",
+                    "source": "https://github.com/lastprogger/ApiClientsLibrary/tree/v1.2.2",
+                    "issues": "https://github.com/lastprogger/ApiClientsLibrary/issues"
+                }
+            },
+            "v1.2.3": {
+                "name": "ApiClientsLibrary",
+                "version": "v1.2.3",
+                "version_normalized": "1.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lastprogger/ApiClientsLibrary.git",
+                    "reference": "e57319d5c3b85fe5dbfd66a7b0902399b5e35f75"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://satis.telephony.local/dist/apiclientslibrary/apiclientslibrary-e57319d5c3b85fe5dbfd66a7b0902399b5e35f75-zip-207290.tar",
+                    "reference": "e57319d5c3b85fe5dbfd66a7b0902399b5e35f75",
+                    "shasum": "bdc80ba17439f6af3f63670067cc8353b4c62da1"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.3",
+                    "illuminate/console": "~5.6",
+                    "illuminate/container": "~5.6",
+                    "illuminate/contracts": "~5.6",
+                    "illuminate/support": "~5.6",
+                    "php": ">=7.1.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0"
+                },
+                "time": "2019-01-17T15:54:42+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "InternalApi\\InternalApiServiceProvider"
+                        ]
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "InternalApi\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "api",
+                    "library"
+                ],
+                "support": {
+                    "source": "https://github.com/lastprogger/ApiClientsLibrary/tree/v1.2.3",
+                    "issues": "https://github.com/lastprogger/ApiClientsLibrary/issues"
+                }
+            },
+            "dev-master": {
+                "name": "ApiClientsLibrary",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lastprogger/ApiClientsLibrary.git",
+                    "reference": "e57319d5c3b85fe5dbfd66a7b0902399b5e35f75"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lastprogger/ApiClientsLibrary/zipball/e57319d5c3b85fe5dbfd66a7b0902399b5e35f75",
+                    "reference": "e57319d5c3b85fe5dbfd66a7b0902399b5e35f75",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.3",
+                    "illuminate/console": "~5.6",
+                    "illuminate/container": "~5.6",
+                    "illuminate/contracts": "~5.6",
+                    "illuminate/support": "~5.6",
+                    "php": ">=7.1.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0"
+                },
+                "time": "2019-01-17T15:54:42+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "InternalApi\\InternalApiServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "InternalApi\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "api",
+                    "library"
+                ],
+                "support": {
+                    "source": "https://github.com/lastprogger/ApiClientsLibrary/tree/v1.2.3",
                     "issues": "https://github.com/lastprogger/ApiClientsLibrary/issues"
                 }
             }
